@@ -1,0 +1,34 @@
+{
+  "name": "koa2-webpack",
+  "version": "1.0.0",
+  "description": "koa middleware for webpack (HMR)",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --harmony example/"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "webpack",
+    "hmr"
+  ],
+  "engines": {
+    "node": ">=7.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjg125/koa2-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cjg125/koa2-webpack/issues"
+  },
+  "homepage": "https://github.com/cjg125/koa2-webpack",
+  "dependencies": {
+    "koa": "next",
+    "koa-compose": "next",
+    "webpack": "^1.13.3",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.2"
+  }
+}
