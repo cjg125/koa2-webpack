@@ -1,4 +1,4 @@
-#  koa middleware for webpack (HMR)
+#  koa2 middleware for webpack (HMR)
 ## Install
 
 ```bash
@@ -29,7 +29,8 @@ app.use(webpackHRM({
 ```sh
 $ git clone https://github.com/cjg125/koa2-webpack.git demo
 $ cd demo
-$ node examples/
+$ npm install
+$ npm start # node --harmony example/
 # http://127.0.0.1:8888/
 ```
 
