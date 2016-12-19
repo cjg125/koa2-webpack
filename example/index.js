@@ -8,7 +8,10 @@ app.use(webpackHRM({
     stats: {
       colors: true
     }
-  }
+  },
+  success: function() {
+    console.log('Package is in a valid state')
+  },
 }))
 
 
